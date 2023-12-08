@@ -22,8 +22,8 @@ user_schema = {
 @app.route("/api/users/version")
 def version():
     return jsonify({
-        "version": "1",
-        "description": "This is the first API!"
+        "version": "1.1",
+        "description": "This is the first API, but another version!"
     })
 
 @app.route('/api/users', methods=['GET'])
